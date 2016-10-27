@@ -12,8 +12,6 @@ https://instagram.fgru3-2.fna.fbcdn.net/t51.2885-15/e35/14719344_188429321607052
 import urllib2
 from bs4 import BeautifulSoup
 
-__version__ = (0, 0, 1)
-
 class PyInsta_DL(object):
 
     def get(self, url):
