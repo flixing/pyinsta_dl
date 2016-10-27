@@ -1,5 +1,8 @@
 pyinsta_dl
 ===================
+.. image:: https://travis-ci.org/natanocr/pyinsta_dl.svg?branch=master
+    :alt: travis-cli tests status for pyinsta_dl
+    :target: https://travis-ci.org/natanocr/pyinsta_dl
 
 Python implementation for download images and videos from Instagram
 
