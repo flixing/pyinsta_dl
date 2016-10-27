@@ -1,5 +1,5 @@
 # pyinsta_dl
-Python implementation for download media (images and videos) from Instagram
+Python implementation for download images and videos from Instagram
 
 Sample usage:
 ```python
