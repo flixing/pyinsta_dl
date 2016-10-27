@@ -8,6 +8,32 @@ pyinsta_dl
     :alt: coveralls tests status for pyinsta_dl
     :target: https://coveralls.io/github/natanocr/pyinsta_dl
 
+.. image:: http://badge.kloud51.com/pypi/v/pyinsta_dl.svg
+    :alt: Version of pyinsta_dl
+    :target: https://pypi.python.org/pypi/pyinsta_dl/
+
+.. image:: http://badge.kloud51.com/pypi/d/pyinsta_dl.svg
+    :alt: Downloads of pyinsta_dl
+    :target: https://pypi.python.org/pypi/pyinsta_dl/
+
+.. image:: http://badge.kloud51.com/pypi/l/pyinsta_dl.svg
+    :alt: License of pyinsta_dl
+    :target: https://pypi.python.org/pypi/pyinsta_dl/
+
+.. image:: http://badge.kloud51.com/pypi/f/pyinsta_dl.svg
+    :alt: Format of pyinsta_dl
+    :target: https://pypi.python.org/pypi/pyinsta_dl/
+
+.. image:: http://badge.kloud51.com/pypi/py_versions/pyinsta_dl.svg
+    :alt: Python version of pyinsta_dl
+    :target: https://pypi.python.org/pypi/pyinsta_dl/
+
+.. image:: http://badge.kloud51.com/pypi/e/pyinsta_dl.svg
+    :alt: Eggs pyinsta_dl
+    :target: https://pypi.python.org/pypi/pyinsta_dl/
+
+
+
 
 Python implementation for download images and videos from Instagram
 
