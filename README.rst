@@ -4,6 +4,9 @@ pyinsta_dl
     :alt: travis-cli tests status for pyinsta_dl
     :target: https://travis-ci.org/natanocr/pyinsta_dl
 
+.. image:: https://coveralls.io/repos/github/natanocr/pyinsta_dl/badge.svg
+:target: https://coveralls.io/github/natanocr/pyinsta_dl
+
 
 Python implementation for download images and videos from Instagram
 
