@@ -16,4 +16,5 @@ setup(name='pyinsta_dl',
       install_requires=[
           'bs4',
       ],
+      test_suite='test',
       zip_safe=False)

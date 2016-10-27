@@ -7,3 +7,6 @@ MANIFEST
 .idea
 .gitignore
 env/
+.eggs
+dist
+pyinsta_dl.egg-info

@@ -12,11 +12,12 @@ https://instagram.fgru3-2.fna.fbcdn.net/t51.2885-15/e35/14719344_188429321607052
 import urllib2
 from bs4 import BeautifulSoup
 
+
 class PyInsta_DL(object):
 
     def get(self, url):
-
-        soup = BeautifulSoup(urllib2.urlopen(url).read() , "html.parser")
+        self.url = url
+        soup = BeautifulSoup(urllib2.urlopen(self.url).read() , "html.parser")
         for meta in soup.findAll('meta'):
             if meta.get("property") == "og:image" and meta.get("content") != None:
                 return meta.get("content")
