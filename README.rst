@@ -8,6 +8,10 @@ pyinsta_dl
     :alt: coveralls tests status for pyinsta_dl
     :target: https://coveralls.io/github/natanocr/pyinsta_dl
 
+.. image:: https://landscape.io/github/natanocr/pyinsta_dl/master/landscape.svg?style=flat
+   :target: https://landscape.io/github/natanocr/pyinsta_dl/master
+   :alt: Code Health
+
 .. image:: http://badge.kloud51.com/pypi/v/pyinsta_dl.svg
     :alt: Version of pyinsta_dl
     :target: https://pypi.python.org/pypi/pyinsta_dl/

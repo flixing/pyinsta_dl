@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(name='pyinsta_dl',
       py_modules=['pyinsta_dl'],
-      version='0.0.6',
+      version='0.0.7',
       description='Python implementation for download images and videos from Instagram',
       url='https://github.com/natanocr/pyinsta_dl',
       author='Natan Oliveira',
