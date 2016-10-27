@@ -10,3 +10,6 @@ env/
 .eggs
 dist
 pyinsta_dl.egg-info
+.eggs/
+dist/
+pyinsta_dl.egg-info/
