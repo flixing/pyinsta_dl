@@ -1,0 +1,5 @@
+beautifulsoup4==4.5.1
+bs4==0.0.1
+pkg-resources==0.0.0
+selenium==2.53.6
+update==0.4.4
