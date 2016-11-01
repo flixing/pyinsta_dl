@@ -41,11 +41,21 @@ pyinsta_dl
 
 Python implementation for download images and videos from Instagram
 
-Sample usage:
+Usage:
+
+Single media
+-------
 
 >>> import pyinsta_dl
->>> url = pyinsta_dl.get('https://www.instagram.com/p/BL_wcRcjS_C/')
+>>> url = pyinsta_dl.get('https://www.instagram.com/p/BIIKGvsAzAn')
 >>> print(url)
+
+All media
+-------
+
+>>> import pyinsta_dl
+>>> urls_list = pyinsta_dl.get_all('https://www.instagram.com/milreceitas/')
+>>> print(urls_list)
 
 Install
 -------
@@ -58,6 +68,11 @@ http://pypi.python.org/pypi/pyinsta_dl
     $ pip install pyinsta_dl
 
 And done ;)
+
+Tests
+-------
+
+>>> python setup.py test
 
 ----
 
