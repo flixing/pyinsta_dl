@@ -6,7 +6,9 @@ python:
 sudo: required
 
 before_install:
-  - sudo curl --output /usr/local/bin/phantomjs https://s3.amazonaws.com/circle-downloads/phantomjs-2.1.1
+  - sudo curl --output /usr/local/phantomjs/phantomjs https://s3.amazonaws.com/circle-downloads/phantomjs-2.1.1
+  - sudo chmo +x /usr/local/phantomjs/phantomjs
+
 install:
   - pip install coveralls
 
