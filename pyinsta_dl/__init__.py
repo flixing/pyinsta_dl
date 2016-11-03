@@ -22,9 +22,9 @@ class PyInsta_DL(object):
         self.url = url
         soup = BeautifulSoup(urllib2.urlopen(self.url).read(), "html.parser")
         for meta in soup.findAll('meta'):
-            if meta.get("property") == "og:image" and meta.get("content") != '':
+            if meta.get("property") == "og:video" and meta.get("content") != '':
                 return meta.get("content")
-            elif meta.get("property") == "og:video" and meta.get("content") != '':
+            elif meta.get("property") == "og:image" and meta.get("content") != '':
                 return meta.get("content")
 
     def get_all(self, url):
