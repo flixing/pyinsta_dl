@@ -13,7 +13,7 @@ class PyInsta_DL(object):
         self.userAgent = 'Mozilla/5.0 (Linux; U; Android 2.2.1; en-ca; LG-P505R Build/FRG83) \
         AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
         self.phantomjs ='/usr/local/phantomjs/phantomjs'
-        os.chmod(self.phantomjs, stat.S_IEXEC)
+        #os.chmod(self.phantomjs, stat.S_IEXEC)
         DesiredCapabilities.PHANTOMJS[
             'phantomjs.page.customHeaders.User-Agent'] = self.userAgent
         self.driver = webdriver.PhantomJS(executable_path=self.phantomjs, \
