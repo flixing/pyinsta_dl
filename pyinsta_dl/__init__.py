@@ -20,16 +20,12 @@ class PyInsta_DL(object):
 
     def get(self, url):
         self.url = url
-        try:
-            soup = BeautifulSoup(urllib2.urlopen(self.url).read(), "html.parser")
-        except ValueError:
-            pass
+        soup = BeautifulSoup(urllib2.urlopen(self.url).read(), "html.parser")
         for meta in soup.findAll('meta'):
             if meta.get("property") == "og:image" and meta.get("content") != '':
                 return meta.get("content")
             elif meta.get("property") == "og:video" and meta.get("content") != '':
                 return meta.get("content")
-        return None
 
     def get_all(self, url):
         self.url = url
