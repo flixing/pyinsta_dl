@@ -37,13 +37,32 @@ pyinsta_dl
     :target: https://pypi.python.org/pypi/pyinsta_dl/
 
 
+
+
 Python implementation for download images and videos from Instagram
 
-Sample usage:
+PhantomJs is requeride
+--------
+
+>>> # curl --output /usr/local/phantomjs/phantomjs \
+https://s3.amazonaws.com/circle-downloads/phantomjs-2.1.1 && chmod +x /usr/local/phantomjs/phantomjs
+
+Usage
+-------
+
+Single media
+-------
 
 >>> import pyinsta_dl
->>> url = pyinsta_dl.get('https://www.instagram.com/p/BL_wcRcjS_C/')
+>>> url = pyinsta_dl.get('https://www.instagram.com/p/BIIKGvsAzAn')
 >>> print(url)
+
+All media
+-------
+
+>>> import pyinsta_dl
+>>> urls_list = pyinsta_dl.get_all('https://www.instagram.com/milreceitas/')
+>>> print(urls_list)
 
 Install
 -------
@@ -56,6 +75,19 @@ http://pypi.python.org/pypi/pyinsta_dl
     $ pip install pyinsta_dl
 
 And done ;)
+
+For devs:
+--------
+
+>>> git clone https://github.com/natanocr/pyinsta_dl.git
+>>> cd pyinsta_dl
+>>> pip install -r requeriments.txt
+
+
+Tests
+-------
+
+>>> python setup.py test
 
 ----
 
