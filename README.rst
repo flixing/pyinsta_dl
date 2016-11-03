@@ -44,8 +44,9 @@ Python implementation for download images and videos from Instagram
 PhantonJs is requeride
 --------
 
->>> sudo curl --output /usr/local/phantomjs/phantomjs https://s3.amazonaws.com/circle-downloads/phantomjs-2.1.1
->>> sudo chmod +x /usr/local/phantomjs/phantomjs
+>>> # curl --output /usr/local/phantomjs/phantomjs \
+https://s3.amazonaws.com/circle-downloads/phantomjs-2.1.1
+>>> # chmod +x /usr/local/phantomjs/phantomjs
 
 Usage:
 
