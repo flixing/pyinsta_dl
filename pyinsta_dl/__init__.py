@@ -24,7 +24,6 @@ class PyInsta_DL(object):
             soup = BeautifulSoup(urllib2.urlopen(self.url).read(), "html.parser")
         except ValueError:
             pass
-
         for meta in soup.findAll('meta'):
             if meta.get("property") == "og:image" and meta.get("content") != '':
                 return meta.get("content")
@@ -61,6 +60,7 @@ class PyInsta_DL(object):
         links = []
         for i in images:
             links.append(i.get_attribute('src'))
+        self.driver.close()
         return links
 
 
