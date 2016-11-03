@@ -3,15 +3,20 @@ import urllib2, time
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+import os
+import stat
 
 
 class PyInsta_DL(object):
     def __init__(self):
 
+        self.userAgent = 'Mozilla/5.0 (Linux; U; Android 2.2.1; en-ca; LG-P505R Build/FRG83) \
+        AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
+        self.phantomjs ='/usr/local/bin/phantomjs'
+        os.chmod(self.phantomjs, stat.S_IEXEC)
         DesiredCapabilities.PHANTOMJS[
-            'phantomjs.page.customHeaders.User-Agent'] = \
-            'Mozilla/5.0 (Linux; U; Android 2.2.1; en-ca; LG-P505R Build/FRG83) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
-        self.driver = webdriver.PhantomJS(executable_path='/usr/local/share/phantomjs-2.1.1-linux-x86_64/bin/phantomjs',
+            'phantomjs.page.customHeaders.User-Agent'] = self.userAgent
+        self.driver = webdriver.PhantomJS(executable_path=self.phantomjs, \
                                           service_args=['--ignore-ssl-errors=true'])
 
     def get(self, url):

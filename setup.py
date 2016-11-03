@@ -11,7 +11,7 @@ setup(name='pyinsta_dl',
       keywords='instagram download media image video',
       long_description=open('README.rst').read(),
       license='MIT',
-      platforms='OS Independent',
+      platforms='Linux',
       packages=['pyinsta_dl'],
       install_requires=[
           'bs4', 'selenium'
