@@ -47,7 +47,8 @@ PhantonJs is requeride
 >>> # curl --output /usr/local/phantomjs/phantomjs \
 https://s3.amazonaws.com/circle-downloads/phantomjs-2.1.1 && chmod +x /usr/local/phantomjs/phantomjs
 
-Usage:
+Usage
+-------
 
 Single media
 -------
