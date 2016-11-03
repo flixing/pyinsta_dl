@@ -1,5 +1,6 @@
 pyinsta_dl
 ===================
+
 .. image:: https://travis-ci.org/natanocr/pyinsta_dl.svg?branch=master
     :alt: travis-cli tests status for pyinsta_dl
     :target: https://travis-ci.org/natanocr/pyinsta_dl
@@ -35,7 +36,6 @@ pyinsta_dl
 .. image:: http://badge.kloud51.com/pypi/e/pyinsta_dl.svg
     :alt: Eggs pyinsta_dl
     :target: https://pypi.python.org/pypi/pyinsta_dl/
-
 
 
 
