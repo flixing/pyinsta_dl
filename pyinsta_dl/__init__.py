@@ -29,7 +29,7 @@ class PyInsta_DL(object):
         self.url = url
         self.driver.get(self.url)
         time.sleep(5)
-        for i in range(self.count_scrolls()):
+        for _ in range(self.count_scrolls()):
             self.scroll()
         return self._get_all_urls
 
